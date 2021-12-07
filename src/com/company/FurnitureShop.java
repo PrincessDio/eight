@@ -64,12 +64,11 @@ public class FurnitureShop {
             enterShop();
             return false;
         } else {
-            System.out.println("Прекрасно. Оплата картой. Введите номер своей карты и 3 цифры на обратной" +
+            System.out.println("Прекрасно. Оплата картой. Введите номер своей карты и 3 цифры на обратной " +
                     "стороне через пробел: ");
             Scanner num = new Scanner(System.in);
             String card = num.nextLine();
             System.out.println("Вау, рельно повёлся? Мебель то не настоящая. Ну, всего доброго, хе хе. \n");
-            System.out.println(card);
             return true;
         }
     }
